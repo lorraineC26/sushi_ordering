@@ -48,4 +48,20 @@
   cursor: pointer;
 }
 
+.footer__social li {
+  width: 42px;
+  height: 42px;
+  
+  /* make logo appear on the webpage */
+  background-color: var(--secondary-color);
+  border-radius: 100%;
+}
+
+.footer__social li img {
+  width: 45%;
+  height: 45%;
+
+  object-fit: contain;
+}
+
 
