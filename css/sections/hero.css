@@ -43,7 +43,7 @@
 }
 
 .hero-content {
-  flex: 1.22;
+  flex: 1.22;   /* flex-grow: 1.22; can grow to fill the available space, will take 1.22 times the available space compared to other flex items if they also have a flex-grow value */
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -62,5 +62,39 @@
   font-weight: 600;
   font-family: var(--playfair-display);
   color: var(--secondary-color);
+}
+
+.hero-content-info p {
+  margin: 32px 0 0 32px;
+  
+  font-family: var(--plus-jakarta-sans);
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.hero-content__buttons {
+  margin:  41px 0 0 41px;
+
+  display: flex;
+  flex-wrap: wrap; /* if no enough width, they'll wrap  below another*/
+  gap: 36px;
+}
+
+.hero-content__order-button {
+  padding: 20px;
+  border-radius: 36px;
+  min-width: 212px;
+  outline: none;
+  border: none;
+  background: var(--secondary-color);
+
+  cursor: pointer;
+
+  color: #fff;
+  font-weight: 250;
+  font-size: 18px;
+  line-height: 23px;
+
 }
 
