@@ -117,3 +117,33 @@
   height: 46px;
   object-fit: contain; /* always keep the aspect ratio*/
 }
+
+.hero-content__testimonial {
+  padding: 32px 64px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  background: var(--color-white);
+}
+
+.hero-content__customer {
+  flex: 1; /*take the majority of the space*/
+  gap: 10px;
+}
+
+.hero-content__customer h4 {
+  font-size: 62px;
+  font-weight: 400;
+  font-family: var(--playfair-display);
+}
+
+.hero-content__customer p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--plus-jakarta-sans);
+  color: var(--secondary-color);
+  opacity: 0.5;
+}
+
