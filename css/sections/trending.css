@@ -6,10 +6,6 @@
   overflow: hidden;
 }
 
-.trending__discover {
-
-}
-
 /* give the same style to the different class names */
 .trending-sushi, .trending-drink {
   width: 100%;
@@ -95,6 +91,28 @@
   height: 260px;
   object-fit: contain;
 }
+
+.trending__discover {
+  position: absolute;
+  top: 44%;
+  left: 44%;
+  z-index: 1;
+
+  width: 160px;
+  height: 160px;
+
+  background-color: var(--secondary-color);
+  border-radius: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trending__discover p {
+  
+}
+
 
 /* Arrows */
 .trending__arrow {
