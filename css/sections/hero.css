@@ -29,3 +29,15 @@
   background-color: var(--primary-color);
   z-index: -1;
 }
+
+.hero-image h2 {
+  position: absolute; /*它不用考虑别的元素的位置*/
+  bottom: 0; 
+  padding: 20px;
+
+  font-family: var( --playfair-display);
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 138px;
+  color: #fff;
+}
