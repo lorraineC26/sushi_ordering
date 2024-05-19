@@ -167,5 +167,34 @@
   color: #fff;
 }
 
+/* without space bt the two class: targets elements that have both of classes: `popular-foods__card`,  `active-card`*/
+.popular-foods__card.active-card {
+  background: #fff;
+  min-width: 340px;
+}
+
+/* target the `popular-foods__card-image` element nested inside the elements with both of the two previous classes */
+.popular-foods__card.active-card .popular-foods__card-image {
+  width: 214px;
+  height: 160px;
+}
+
+.popular-foods__card.active-card .popular-foods__card-title {
+
+}
+
+.popular-foods__card.active-card .popular-foods__card-rating img {
+
+}
+
+.popular-foods__card.active-card .popular-foods__card-rating p {
+
+}
+
+.popular-foods__card.active-card .popular-foods__card-price {
+
+}
+
+
 
 
