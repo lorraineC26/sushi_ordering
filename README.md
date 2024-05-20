@@ -1,10 +1,8 @@
 # 🍣 SushiQueen Web App
 
-## Description
-
 SushiQueen is a front-end web application designed as a practice project to showcase HTML and CSS skills. It simulates a modern online Japanese food restaurant, offering users a glimpse into its mission, popular dishes, and current trending.
 
-### Desktop View
+#### Desktop View
 <p align="center">
   <img src=https://github.com/lorraineC26/sushiqueen/blob/main/public/hero.png?raw=true alt="hero" width="300px" style="display: block; margin: 0 auto;">
 </p>
@@ -19,7 +17,7 @@ SushiQueen is a front-end web application designed as a practice project to show
   <img src=https://github.com/lorraineC26/sushiqueen/blob/main/public/trending.png?raw=true alt="trending" width="300px" style="display: block; margin: 0 auto;">
 </p>
 
-### Mobile View
+#### Mobile View
 <p align="center">
   <img src=https://github.com/lorraineC26/sushiqueen/blob/main/public/mobile-hero.png?raw=true alt="hero" width="100px" style="display: block; margin: 0 auto;">
 </p>
